@@ -1,10 +1,11 @@
 
 import './App.css';
+import Toggle from './components/Toggle';
 
 function App() {
   return (
      <div>
-      <h2 className='text-primary'>Mandeep Handa</h2>
+    <Toggle></Toggle>
      </div>
   );
 }
